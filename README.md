@@ -1,4 +1,3 @@
-```markdown
 # WPM Counter: A C-Based Typing Speed Test
 
 ![Language](https://img.shields.io/badge/Language-C-A8B9CC?style=for-the-badge&logo=c)
@@ -6,31 +5,21 @@
 A simple but effective console application written entirely in C that tests your typing speed in Words Per Minute (WPM). It calculates your WPM, accuracy, and time taken based on your performance on a randomly selected paragraph.
 
 ## Demo
-
 Here is a quick demo of the application flow:
-
-```
-
 select level(easy/med/hard): med
 
-press any key to start the test\!
+press any key to start the test!
 
 your timer has started...
 
 enter the paragraph mentioned below:
 
-The dog chased the ball across the yard while the kids watched.The dog was fast and energetic, enjoying the game.
-The dog chased the ball across the yard while the kids watched.The dog was fast and energetic, enjoying the game.
+The dog chased the ball across the yard while the kids watched.The dog was fast and energetic, enjoying the game. The dog chased the ball across the yard while the kids watched.The dog was fast and energetic, enjoying the game.
 
-YOUR RESULT:
-WPM: 42
-Time taken: 20.00 seconds
-accuracy: 100.00%
+YOUR RESULT: WPM: 42 Time taken: 20.00 seconds accuracy: 100.00%
 
-You want to test again?(yes/no): no
-Thanks for joining :)
+You want to test again?(yes/no): no Thanks for joining :)
 
-````
 
 ## 🚀 Features
 
@@ -85,4 +74,3 @@ This project uses the `conio.h` library, which is specific to Windows. It can be
     ```
 
 > **Note:** This code will not compile on Linux or macOS without modifications (i.e., removing `conio.h` and finding an alternative for `getch()`).
-````
